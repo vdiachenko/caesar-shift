@@ -1,0 +1,38 @@
+{
+    "name": "caesar-shift",
+    "version": "1.0.0",
+    "description": "Caesar code implementation",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "pretty-quick --staged"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vdiachenko/caesar-shift.git"
+    },
+    "keywords": [
+        "caesar",
+        "code",
+        "shift"
+    ],
+    "author": "Vlad Diachenko",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/vdiachenko/caesar-shift/issues"
+    },
+    "homepage": "https://github.com/vdiachenko/caesar-shift#readme",
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "commander": "^2.19.0"
+    },
+    "devDependencies": {
+        "husky": "^1.3.1",
+        "prettier": "^1.16.1",
+        "pretty-quick": "^1.10.0"
+    }
+}
